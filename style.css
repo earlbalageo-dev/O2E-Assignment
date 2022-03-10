@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangleWrapper {
+  width: 30%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 16px;
+}
+
+.rectangle {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  margin: 0 8px;
+}
+
+.content p {
+  margin: 0;
+  text-align: center;
+}
